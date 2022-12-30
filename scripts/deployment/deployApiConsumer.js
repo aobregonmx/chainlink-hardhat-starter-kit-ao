@@ -58,6 +58,7 @@ async function deployApiConsumer(chainId) {
     await linkToken.transfer(apiConsumer.address, fundAmount)
 
     console.log(`APIConsumer funded with ${fundAmount} JUELS`)
+    
 }
 
 module.exports = {
